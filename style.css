@@ -1,0 +1,87 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 0px;
+    background-color:black;
+    color:beige;
+    width: 100%;
+}
+.navbar .logo {
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+}
+.navbar .navbar-logo .tec {
+    color:rgb(143, 81, 0);
+}
+.navbar ul {
+    display:flex;
+    list-style: none;
+    gap: 20px;
+}
+.navbar ul li {
+    position: relative;
+}
+.navbar ul li a {
+    color:beige;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+.navbar ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: beige;
+    transition: width 0.3s ease;
+}
+.navbar ul li a:hover::before {
+    width: 100%;
+    color:burlywood;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/026/954/445/small_2x/coffee-beans-background-morning-drink-wallpaper-for-banner-postcard-illustration-created-with-generative-ai-tools-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%
+}
+.logo {
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.SEARCH button {
+    background-color:rgb(89, 255, 59);
+    color:rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'poppins', calbri;
+    margin-right: 20px;
+}
+.home .isi {
+    text-align: center;
+    color: beige;
+    font-size: 100px;
+    background-color: rgb(171, 71, 0);
+    width: 100%;
+}
+
